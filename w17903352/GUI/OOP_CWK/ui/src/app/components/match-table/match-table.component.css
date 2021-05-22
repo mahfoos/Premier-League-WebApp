@@ -1,0 +1,126 @@
+
+table thead tr{
+  display:block;
+}
+
+table th,table td{
+  width:400px;
+
+}
+th{
+  font-size: 18px;
+}
+
+
+td{
+  font-size: 15px;
+}
+table  tbody{
+  display:block;
+  height:500px;
+  padding-right: 20px;
+  overflow-y: scroll;
+
+}
+
+h2{
+  font-size: 2.0em;
+  top: 100px;
+  color: white;
+  position: absolute;
+  right: 44%;
+  font-weight: bold;
+}
+
+
+
+
+button{
+  background-color: #38003C;
+  color: white;
+  width: 15%;
+  border:  #00FF85 2px solid;
+  position: absolute;
+  top: 140px;
+  right: 11%;
+}
+
+
+.example-full-width {
+  width: 50%;
+  float: left;
+  border-radius: 10px;
+  position: absolute;
+  top: 120px;
+  right: 37%;
+  padding: 5px;
+  height: 70px;
+}
+input{
+  color: white;
+  width: 20%;
+}
+
+.tbl{
+  position: absolute;
+  top: 190px;
+  margin-right: 160px;
+}
+table {
+  border: 2px solid;
+
+
+}
+::ng-deep input.mat-input-element {
+  color: white;
+}
+
+::ng-deep .mat-form-field.mat-focused .mat-form-field-label {
+  color: white !important;}
+
+::ng-deep .mat-focused .mat-form-field-underline .mat-form-field-ripple{
+  background-color: white !important;
+}
+::ng-deep .mat-form-field{
+  color:white;
+}
+
+.btnSort:hover span {
+  padding-right: 25px;
+}
+
+.btnSort:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.btnSort span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.btnSort span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.button {
+  border-radius: 4px;
+  background-color: #38003C;
+  border: none;
+  color: #FFFFFF;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.9s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+mat-label{
+  color: white;
+}

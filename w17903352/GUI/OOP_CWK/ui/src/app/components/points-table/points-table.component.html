@@ -1,0 +1,42 @@
+<div>
+  <h2>Points Table</h2>
+</div>
+<div class="tbl">
+<table class="table table-light table-striped ">
+  <thead class="thead-light">
+  <tr>
+    <th scope="col">Position</th>
+    <th scope="col">Club</th>
+    <th scope="col">Location</th>
+    <th scope="col">Wins</th>
+    <th scope="col">Draw</th>
+    <th scope="col">Defeat</th>
+    <th scope="col" >Goal Scored</th>
+    <th scope="col">Goal Against</th>
+    <th scope="col">Goal Difference</th>
+    <th scope="col">Points</th>
+    <th scope="col">Played Matches</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr class="text-center" *ngFor="let col of matchTable " >
+    <td> {{col.position}}</td>
+    <td>{{col.nameOfClub}}</td>
+    <td>{{col.locationOfClub}}</td>
+    <td>{{col.numOfWin}}</td>
+    <td>{{col.numOfDraw}}</td>
+    <td>{{col.numOfDefeat}}</td>
+    <td>{{col.numOfScoredGoals}}</td>
+    <td>{{col.numOfReceivedGoals}}</td>
+    <td>{{col.goalDifference}}</td>
+    <td>{{col.numOfPoints}}</td>
+    <td>{{col.numOfPlayedMatches}}</td>
+  </tr>
+  </tbody>
+</table>
+</div>
+
+/*
+    # Bootstrap Table Documentation
+    https://getbootstrap.com/docs/4.0/content/tables/
+*/

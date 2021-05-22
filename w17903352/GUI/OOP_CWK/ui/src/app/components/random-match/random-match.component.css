@@ -1,0 +1,87 @@
+table thead tr{
+  display:block;
+}
+
+table th,table td{
+  width:400px;
+}
+
+th{
+  font-size: 18px;
+}
+
+table  tbody{
+  display:block;
+  height:500px;
+  overflow:auto;
+}
+
+h2{
+  font-size: 2.0em;
+  top: 100px;
+  color: white;
+  position: absolute;
+  right: 39%;
+  font-weight: bold;
+}
+
+
+
+button{
+  background-color: #38003C;
+  color: white;
+  width: 12%;
+  border:  #00FF85 2px solid;
+  position: absolute;
+  top: 140px;
+  right: 160px;
+}
+
+td{
+  font-size: 15px;
+}
+
+.tbl{
+  position: absolute;
+  top: 200px;
+  margin-right: 160px;
+}
+
+table {
+  border: 2px solid;
+  padding: 10px;
+
+}
+
+.btnRandom:hover span {
+  padding-right: 25px;
+}
+
+.btnRandom:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.btnRandom span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.btnRandom span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.button {
+  background-color: #38003C;
+  color: #FFFFFF;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.9s;
+  cursor: pointer;
+  margin: 5px;
+}

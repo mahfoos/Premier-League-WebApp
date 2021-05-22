@@ -1,0 +1,42 @@
+h2{
+  font-size: 2.0em;
+  top: 100px;
+  color: white;
+  position: absolute;
+  right: 44%;
+  font-weight: bold;
+}
+td{
+  font-size: 15px;
+}
+
+th{
+  font-size: 16px;
+}
+
+.tbl{
+  position: absolute;
+  top: 160px;
+  right: 250px;
+}
+table {
+  border: 2px solid;
+  padding: 20px;
+
+}
+/*table  tbody{*/
+/*  display:block;*/
+/*  height:500px;*/
+/*  overflow:auto;*/
+/*}*/
+/*table thead tr{*/
+/*  display:block;*/
+/*}*/
+/*table th,table td{*/
+/*  width:400px;*/
+
+/*}*/
+/*td{*/
+/*  font-size: 15px;*/
+/*  text-align: left;*/
+/*}*/

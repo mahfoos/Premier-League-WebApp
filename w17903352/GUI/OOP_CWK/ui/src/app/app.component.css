@@ -1,0 +1,98 @@
+.navbar{
+  height: 09%;
+  background-color: #38003C;
+  /*background-image: linear-gradient(to right,yellow,greenyellow);*/
+  border-bottom: #00FF85 3px solid;
+}
+
+nav li{
+  font-size: 1.4em ;
+
+}
+
+.nav-link{
+  color: white;
+
+}
+
+.navbar-brand {
+  margin-left: 40%;
+
+}
+mat-icon{
+     background: linear-gradient(45deg, #c800ff, #00ffbd) ;
+     -webkit-text-fill-color: transparent;
+     -webkit-background-clip: text;  width: 25px;
+     height: 30px;
+     transform: scale(2.5);
+
+
+ }
+
+.navbar-nav{
+  font-size: 15px;
+  font-family: Cambria, serif;
+  color: white;
+  margin-left: 20%;
+
+
+}
+
+.nav-item{
+  margin: 10px;
+}
+
+
+
+
+/*footer{*/
+/*  padding: 10px;*/
+/*  margin-top: 80px;*/
+/*  color: #f4f4f4;*/
+/*  background-color: #FFB94E;*/
+/*  text-align: center;*/
+/*  height:120px;*/
+/*}*/
+footer{
+  background-color: #38003C;
+  height: 50px;
+  color: white;
+  border-top: #00FF85 3px solid;
+}
+
+a{
+  color: white;
+}
+
+strong{
+  margin-left: 150px;
+  text-align: center;
+}
+
+
+
+body{
+  background: url("src/assets/back.jpg")no-repeat -00px -50px ;
+  background-size: 100%;
+  text-align: center;
+}
+
+.container{
+  top: 50%;
+}
+
+.nav-item a:hover { color:#00FF85 !important; }
+
+.logo{
+  width: 40px;
+  height: 40px;
+  background-color: #00FF85;
+}
+
+.spn{
+  letter-spacing: 2px;
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  margin: 15px;
+}

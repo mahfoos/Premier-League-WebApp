@@ -1,0 +1,38 @@
+<div>
+  <h2>Match Table</h2>
+</div>
+  <mat-form-field class="example-full-width" appearance="fill">
+    <mat-label>Search By Date</mat-label>
+<input matInput type="text"  [(ngModel)]="dateArray" />
+  </mat-form-field>
+  <div>
+    <button class="btnSort" mat-raised-button (click)="sortByDate()">  <span>Sort By Date </span></button>
+  </div>
+
+<div class="tbl">
+<table class="table table-light table-striped ">
+  <thead class="thead-light">
+  <tr>
+    <th scope="col">Date</th>
+    <th scope="col">Home Team</th>
+    <th scope="col">Away Team</th>
+    <th scope="col">Goal Scored </th>
+    <th scope="col">Goal Against</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr *ngFor="let col of footballClubMatch | dateSearch:dateArray" >
+    <td >{{col.date}}</td>
+    <td>{{col.homeTeam}}</td>
+    <td>{{col.awayTeam}}</td>
+    <td>{{col.numOfScoredGoals}}</td>
+    <td>{{col.numOfReceivedGoals}}</td>
+  </tr>
+  </tbody>
+</table>
+</div>
+
+
+
+
+

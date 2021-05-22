@@ -1,0 +1,35 @@
+
+<body>
+  <nav class="navbar  navbar-expand-sm fixed-top">
+       <span class="spn">Premier</span>
+      <mat-icon> whatshot</mat-icon>
+       <span class="spn">League</span>
+
+<!--    <a href="#" class="navbar-brand "src="src/assets/brand.png"></a>-->
+    <div class="navbar-nav  mr-auto">
+      <li class="nav-item">
+        <a routerLink="points_table" class="nav-link">Points Table</a>
+      </li>
+      <li class="nav-item">
+        <a routerLink="match_table" class="nav-link">Match Table</a>
+      </li>
+      <li class="nav-item">
+        <a routerLink="random_match" class="nav-link">Random Match</a>
+      </li>
+    </div>
+  </nav>
+
+  <div class="container mt-5">
+    <router-outlet></router-outlet>
+  </div>
+
+</body>
+<footer>
+  <p><strong> &#169; P R E M I E R  &nbsp; L E A G U E &nbsp; 2 0 2 0 .&nbsp; </strong>
+    <a href="#" > Modern Slavery Statement . &nbsp;</a>
+    <a href="#" > Terms and Conditions . &nbsp;</a>
+    <a href="#" >  Policies .  &nbsp;</a>
+    <a href="#"> Back to Top </a></p>
+</footer>
+
+

@@ -1,0 +1,31 @@
+<div class="head">
+  <h2>Random Match Table</h2>
+</div>
+<div>
+  <button class="btnRandom" mat-raised-button (click)="randomMatchGenerate()"><span>Random match</span> </button>
+</div>
+<div class="tbl">
+<table class="table table-light table-striped">
+  <thead class="thead-light">
+  <tr>
+    <th scope="col">Date</th>
+    <th scope="col">Home Team</th>
+    <th scope="col">Away Team</th>
+    <th scope="col">Goal Scored </th>
+    <th scope="col">Goal Against</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr *ngFor="let col of randomTable " >
+    <td>{{col.date}}</td>
+    <td>{{col.homeTeam}}</td>
+    <td>{{col.awayTeam}}</td>
+    <td>{{col.numOfScoredGoals}}</td>
+    <td>{{col.numOfReceivedGoals}}</td>
+
+  </tr>
+  </tbody>
+</table>
+</div>
+
+
